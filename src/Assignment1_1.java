@@ -1,5 +1,6 @@
 
 public class Assignment1_1 {
+	
 	public static void main(String[] args) {
 		//Declare variables
 		int number = 10;
