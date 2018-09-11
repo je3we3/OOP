@@ -40,17 +40,8 @@ public class Point {
 	}
 	
 	public double distance(Point other) {
-		double xAbs = abs(this.x - other.x);
-		double yAbs = abs(this.y - other.y);
-		return Math.sqrt(squared(xAbs) + squared(yAbs));
+		double xAbs = this.x - other.x;
+		double yAbs = this.y - other.y;
+		return Math.sqrt(Assignment1_7.squared(xAbs) + Assignment1_7.squared(yAbs));
 	}
-	
-	private static double abs(double n) {
-		return Math.sqrt(n * n);
-	}
-	
-	private static double squared(double n) {
-		return n * n;
-	}
-	
 }

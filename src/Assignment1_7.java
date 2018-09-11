@@ -17,8 +17,8 @@ public class Assignment1_7 {
 	}
 	
 	public static double distance(double x1, double y1, double x2, double y2) {
-		double xAbs = abs(x1 - x2);
-		double yAbs = abs(y1 - y2);
+		double xAbs = x1 - x2;
+		double yAbs = y1 - y2;
 		return Math.sqrt(squared(xAbs) + squared(yAbs));
 	}
 }
